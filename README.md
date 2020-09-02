@@ -1,6 +1,6 @@
 # animeplay
 
-Esté projeto estava parada a muito tempo atrás, dei uma mexida para ele ficar um pouco apresentável. Mas tem um grande caminho para quem quer se aventurar no FrontEnd com inúmeras possilidades.
+Esse projeto estava parada a muito tempo atrás, dei uma mexida para ele ficar um pouco apresentável. Mas tem um grande caminho para quem quer se aventurar no FrontEnd com inúmeras possilidades.
 
 Decidi postar aqui para quem quiser iniciar um projeto semelhante tentar aproveitar algo ou quem quiser dar um UP fique a vontade. 
 
