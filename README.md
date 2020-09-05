@@ -1,4 +1,4 @@
-# animeplay
+# Site para assistir filmes online
 
 Esse projeto estava parada a muito tempo atrás, dei uma mexida para ele ficar um pouco apresentável. Mas tem um grande caminho para quem quer se aventurar no FrontEnd com inúmeras possilidades.
 
