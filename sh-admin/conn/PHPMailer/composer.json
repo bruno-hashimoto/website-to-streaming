@@ -1,0 +1,12 @@
+{
+    "name": "ivmello/shapeweb-mailer-phpmailer",
+    "authors": [
+        {
+            "name": "Igor Vieira de Mello",
+            "email": "igor@shapeweb.com.br"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.1"
+    }
+}

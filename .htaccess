@@ -1,0 +1,31 @@
+<Files .htaccess>
+  Order deny,allow
+  deny from all
+</Files>
+
+RewriteEngine On
+RewriteCond %{SCRIPT_FILENAME} !-f
+RewriteCond %{SCRIPT_FILENAME} !-d
+
+##URLs
+
+    #Estaticas
+      RewriteRule ^home\/?$ index.php?a=home
+      RewriteRule ^contato\/?$ index.php?a=contato
+      RewriteRule ^animes\/?$ index.php?a=animes
+
+##Fim URLs
+
+ErrorDocument  404  /404.php
+ErrorDocument  400 default
+
+#Colocar "www" nas urls
+
+#Para funcionar na uolhost habilite essa regra: Options All
+Options +SymLinksIfOwnerMatch
+rewritecond %{http_host} ^novosite.com.br [NC]
+rewriterule ^(.*)$ http://www.%{http_host} [r=301,NC]
+
+#Impedir Listagem
+
+IndexIgnore *

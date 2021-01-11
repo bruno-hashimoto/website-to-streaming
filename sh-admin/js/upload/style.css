@@ -1,0 +1,26 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700);
+
+body {
+	font:300 14px/1.8 'Ubuntu', Helvetica, Arial, sans-serif;
+	color: #2c2e2f;
+  text-align: center;
+}
+
+.container{
+  margin: 0 auto;
+  /*width: 50%;*/
+}
+
+.content {
+  padding: 5px;
+  margin: 0 auto;
+}
+.content span {
+  /*width: 250px;*/
+  font-size: 18px;
+}
+
+.dz-message {
+  text-align: center;
+  font-size: 28px;
+}
